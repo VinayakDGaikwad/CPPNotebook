@@ -1,5 +1,5 @@
 #include<iostream>
-#include<conio.h>
+//#include<conio.h>
 
 using namespace std;
 
@@ -31,11 +31,12 @@ void myStudent::showData() {
 	cout << "SCGPA:" << sgpa;
 };
 
-void main() {
+int main() {
 	myStudent student1;
-	int i = 0;
-	for (i == 0; i < 10; i++) {
+	int i;
+	for (i = 0; i < 10; i++) {
 		student1.getData();
 		student1.showData();
 	}
-};
+	return 0;
+}
