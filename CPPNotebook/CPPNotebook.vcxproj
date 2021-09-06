@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Desktop\inheritance.cpp" />
+    <ClCompile Include="..\..\..\Desktop\operator overloading.cpp" />
+    <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
   </ItemGroup>
   <ItemGroup>

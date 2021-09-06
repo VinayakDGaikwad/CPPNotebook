@@ -2,11 +2,7 @@
 
 using namespace std;
 
-
-
-students students_array[10];
-
-int main() {
+int searching() {
 	int i;
 	int search_key;
 	
@@ -34,5 +30,7 @@ int main() {
 
 		e++;
 	}
+	
+	return 0;
 		
 }
