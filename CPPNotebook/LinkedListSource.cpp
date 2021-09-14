@@ -2,40 +2,58 @@
 
 using namespace std;
 
-struct node {
-	int data;
-    node* next;
+class linkedlist {
+private:
+	struct node {
+		int data;
+		struct node* next;
+	};
+
+	struct node* head;
+
+public:
+	linkedlist() {
+		head = NULL;
+	}
+
+	void display() {
+		struct node* temp = head;
+
+		while (temp != NULL) {
+			cout << "    " << temp->data;
+			temp = temp->next;
+		}
+	}
+
+	void append_last(int data){
+		struct node* temp = head;
+		struct node* new_node = new node;
+		new_node->data = data;
+		new_node->next = NULL;
+
+		if (head != NULL) {
+			while (temp->next != NULL) {
+				temp = temp->next;
+			}
+
+			temp->next = new_node;
+		}
+		else {
+			head = new_node;
+		}
+		
+	};
+
 };
 
-int LinkedListSource() {
-	node* head=nullptr;   //pointer to node "head"
-	node* node1 = nullptr;
-	node* node2=nullptr;
-	node* node3=nullptr;
+int main() {
 
-	node* temp = nullptr;
+	linkedlist L1;
+	L1.append_last(23);
+	L1.append_last(22);
+	L1.append_last(24);
+	L1.append_last(2555);
+	L1.display();
+	return 0;
 
-	head->data = 4234234;
-	head->next = node2;
-
-	node1->data = 3242424;
-	node1->next = node2;
-
-	node2->data = 243234;
-	node2->next = node3;
-
-	node3->data = 243432;
-	node3->next = NULL;
-	
-	int location;
-	cout << "INSERT AFTER WHAT?:";
-	cin >> location;
-
-	//while (temp->next != NULL) {
-		//if (data = )
-
-
-	//}
-	return 0; 
-		//write code for insert before and insert after
 }
