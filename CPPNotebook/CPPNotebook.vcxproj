@@ -139,8 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HW2_CPP.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
+    <ClCompile Include="HW1_UserNamePassword.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="assembly.asm" />

@@ -21,6 +21,12 @@
     <ClCompile Include="LinkedListSource.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HW1_UserNamePassword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HW2_CPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="assembly.asm">

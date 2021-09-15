@@ -46,14 +46,4 @@ public:
 
 };
 
-int main() {
-
-	linkedlist L1;
-	L1.append_last(23);
-	L1.append_last(22);
-	L1.append_last(24);
-	L1.append_last(2555);
-	L1.display();
-	return 0;
-
-}
+//
