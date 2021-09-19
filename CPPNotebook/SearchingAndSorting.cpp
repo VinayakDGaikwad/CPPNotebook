@@ -69,9 +69,9 @@ public:
 			// Check if x is present at mid
 			if (strcmp(mydatabase[mid].name, key) ==0)
 				cout << "Found! \n";
-			cout << "ROLL NO:" << mydatabase[i].roll_no << "\n";
-			cout << "NAME:" << mydatabase[i].name << "\n";
-			cout << "SGPA:" << mydatabase[i].SGPA << "\n";
+			cout << "ROLL NO:" << mydatabase[mid].roll_no << "\n";
+			cout << "NAME:" << mydatabase[mid].name << "\n";
+			cout << "SGPA:" << mydatabase[mid].SGPA << "\n";
 			break;
 
 			// If x greater, ignore left half
