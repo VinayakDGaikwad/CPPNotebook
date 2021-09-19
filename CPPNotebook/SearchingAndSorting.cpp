@@ -42,14 +42,34 @@ public:
 
 	};
 
+	void bubble_sort_rollno() {
+		//bubble sorting
+		int i, j;	
+		int n = 5;
+		struct student temp;
+		
+		for (i = 0; i < n - 1; i++) { //loop for iterations
+			for (j = 0; j < (n - 1) - i; j++) {  //reduce comparisons for every itteration
+				if (mydatabase[j].roll_no > mydatabase[j + 1].roll_no) {
+					temp = mydatabase[j];
+					mydatabase[j] = mydatabase[j + 1];
+					mydatabase[j + 1] = temp;
+				}
+
+			}
+
+		}
+
+	}
+
 	void l_search_name(char key[50]){
 		
 		int i, j;
 		struct student swap;
 				
-		for (i = 0; i < 5 - 1; i++)
+		for (i = 0; i < 5 - 1; i++) //itterations
 		{
-			for (j = 0; j < 5 - i - 1; j++)
+			for (j = 0; j < 5 - i - 1; j++) //comparisons decress for every itteration
 			{
 				if (strcmp(mydatabase[j].name , mydatabase[j + 1].name) >0 )
 				{
@@ -67,8 +87,6 @@ public:
 		while (l <= r) {
 			int mid = l + (r - l) / 2;
 	
-
-
 			// Check if x is present at mid
 			if (strcmp(mydatabase[mid].name,key) == 0) {
 				not_found = 0;
@@ -92,6 +110,13 @@ public:
 
 	}
 
+	void display() {
+		for (int i = 0; i < 5; i++) {
+			cout << "\n NAME:" << mydatabase[i].name;
+			cout << "         Roll NO:" << mydatabase[i].roll_no;
+			cout << "         SGPA:" << mydatabase[i].SGPA;
+		}
+	}
 };
 
 int main() {
@@ -99,16 +124,18 @@ int main() {
 	stu_database List1;
 	List1.get_data();
 
-	int key;
-	cout << "What to search:";
-	cin >> key;
-	List1.l_search_rollno(key);
+	//int key;
+	//cout << "What to search:";
+	//cin >> key;
+	//List1.l_search_rollno(key);
 
-	cout << "What to search name:";
-	char temp[50];
-	cin >> temp;
-	List1.l_search_name(temp);
+	//cout << "What to search name:";
+	//char temp[50];
+	//cin >> temp;
+	//List1.l_search_name(temp);
 
+	List1.bubble_sort_rollno();
+	List1.display();
 	
 	return 0;
 		
