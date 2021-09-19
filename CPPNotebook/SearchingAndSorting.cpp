@@ -46,7 +46,7 @@ public:
 		
 		int i, j;
 		struct student swap;
-		
+				
 		for (i = 0; i < 5 - 1; i++)
 		{
 			for (j = 0; j < 5 - i - 1; j++)
@@ -63,16 +63,21 @@ public:
 		int l = 0;
 		int r = 5;
 
+		int not_found = 1;
 		while (l <= r) {
 			int mid = l + (r - l) / 2;
+	
+
 
 			// Check if x is present at mid
-			if (strcmp(mydatabase[mid].name, key) ==0)
+			if (strcmp(mydatabase[mid].name,key) == 0) {
+				not_found = 0;
 				cout << "Found! \n";
-			cout << "ROLL NO:" << mydatabase[i].roll_no << "\n";
-			cout << "NAME:" << mydatabase[i].name << "\n";
-			cout << "SGPA:" << mydatabase[i].SGPA << "\n";
-			break;
+				cout << "ROLL NO:" << mydatabase[mid].roll_no << "\n";
+				cout << "NAME:" << mydatabase[mid].name << "\n";
+				cout << "SGPA:" << mydatabase[mid].SGPA << "\n";
+				break;
+			}
 
 			// If x greater, ignore left half
 			if (strcmp(mydatabase[mid].name, key) < 0)
@@ -81,7 +86,9 @@ public:
 			// If x is smaller, ignore right half
 			else
 				r = mid - 1;
+
 		}
+		if (not_found) cout << "not found";
 
 	}
 
