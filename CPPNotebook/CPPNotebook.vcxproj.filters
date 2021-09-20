@@ -27,10 +27,8 @@
     <ClCompile Include="HW2_CPP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="assembly.asm">
+    <ClCompile Include="HW3_Function_Overloading.cpp">
       <Filter>Source Files</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

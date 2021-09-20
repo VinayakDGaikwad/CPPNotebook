@@ -140,12 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HW2_CPP.cpp" />
+    <ClCompile Include="HW3_Function_Overloading.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
     <ClCompile Include="HW1_UserNamePassword.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="assembly.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
