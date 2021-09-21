@@ -119,24 +119,24 @@ public:
 	}
 };
 
-int main() {
-	
-	stu_database List1;
-	List1.get_data();
-
-	//int key;
-	//cout << "What to search:";
-	//cin >> key;
-	//List1.l_search_rollno(key);
-
-	//cout << "What to search name:";
-	//char temp[50];
-	//cin >> temp;
-	//List1.l_search_name(temp);
-
-	List1.bubble_sort_rollno();
-	List1.display();
-	
-	return 0;
-		
-}
+//int main() {
+//	
+//	stu_database List1;
+//	List1.get_data();
+//
+//	int key;
+//	cout << "What to search:";
+//	cin >> key;
+//	List1.l_search_rollno(key);
+//
+//	cout << "What to search name:";
+//	char temp[50];
+//	cin >> temp;
+//	List1.l_search_name(temp);
+//
+//	List1.bubble_sort_rollno();
+//	List1.display();
+//	
+//	return 0;
+//
+//}

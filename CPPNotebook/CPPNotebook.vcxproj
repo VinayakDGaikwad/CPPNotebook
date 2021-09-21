@@ -139,9 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\OneDrive\Desktop\MIN_term_from_array.cpp" />
+    <ClCompile Include="ArrayPointers.cpp" />
     <ClCompile Include="HW2_CPP.cpp" />
     <ClCompile Include="HW3_Function_Overloading.cpp" />
+    <ClCompile Include="HW3_Pointer.cpp" />
+    <ClCompile Include="inlineFuntions.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
+    <ClCompile Include="muzeeb%27s.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
     <ClCompile Include="HW1_UserNamePassword.cpp" />
   </ItemGroup>

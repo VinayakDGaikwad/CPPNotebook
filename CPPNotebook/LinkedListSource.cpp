@@ -9,21 +9,54 @@ private:
 		struct node* next;
 	};
 
-	struct node* head;
+	struct node* head = new node;
 
 public:
 	linkedlist() {
 		head = NULL;
 	}
-
+	
 	void display() {
 		struct node* temp = head;
+		
+		if (temp == NULL) {
+			cout << "No List";
+			return;
+		}
 
-		while (temp != NULL) {
-			cout << "    " << temp->data;
+
+		cout << "List: ";
+		while (temp->next != NULL) {
+			cout << " --->" << temp->data;
 			temp = temp->next;
 		}
+
+		cout << " :END";
 	}
+
+	void get_data() {
+		cout << "How many nodes do you want?";
+		int n;
+		int i = 0;
+		int data;
+		cin >> n;
+
+		node* temp = new node;
+
+		if (head == NULL) head = new node;
+		//head->next = temp;
+
+		while (i <= n) {
+			cin >> data;
+			temp->data = data;
+			temp->next = new node;
+			temp = temp->next;
+			i++;
+		}
+
+		temp->next = NULL;
+
+	};
 
 	void append_last(int data){
 		struct node* temp = head;
@@ -46,4 +79,10 @@ public:
 
 };
 
+//int main() {
+//	linkedlist list;
+//	list.get_data();
+//	list.display();
 //
+//	return 0;
+//}
