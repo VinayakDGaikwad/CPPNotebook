@@ -139,18 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\MIN_term_from_array.cpp" />
     <ClCompile Include="ArrayPointers.cpp" />
+    <ClCompile Include="DefaultParameter.cpp" />
+    <ClCompile Include="EvenOdd.cpp" />
+    <ClCompile Include="HCF-LCF.cpp" />
     <ClCompile Include="HW2_CPP.cpp" />
     <ClCompile Include="HW3_Function_Overloading.cpp" />
     <ClCompile Include="HW3_Pointer.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
     <ClCompile Include="inlineFuntions.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="muzeeb%27s.cpp" />
     <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="PrimeNumbers.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
     <ClCompile Include="HW1_UserNamePassword.cpp" />
+    <ClCompile Include="SimpleClaculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

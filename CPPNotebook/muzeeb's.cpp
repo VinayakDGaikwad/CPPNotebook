@@ -40,67 +40,67 @@ void ask(int mid) {
 	}
 }
 //main function
-int main()
-{
-
-	int m;
-	int count = 1;
-	while (1)
-	{
-
-		cout << endl << "****************************************";
-		cout << endl << "\t\t" << "MAIN MENU";
-		cout << endl << "****************************************";
-		cout << endl << "|\t" << "1. Enter data                |";
-		cout << endl << "|\t" << "2. Show Data                 |";
-		cout << endl << "|\t" << "3. Search Student by SGPA    |";
-		cout << endl << "|\t" << "4. Show Roll List            |";
-		cout << endl << "|\t" << "5. Search student by name    |";
-		cout << endl << "|\t" << "6. Name List                 | ";
-		cout << endl << "|\t" << "7. Topper List               | ";
-		cout << endl << "|\t" << "8. Exit                      |";
-		cout << endl << "****************************************";
-		cout << endl << "Enter your choice ";
-		cin >> m;
-		cout << "............................................." << endl;
-		switch (m)
-		{
-		case 1:
-			cout << "Enter number of student ";
-			cin >> n;
-			cout << "............................................." << endl;
-			for (int i = 0; i < n; i++)
-			{
-				cout << endl << "Enter data for students " << count++ << endl;
-				s[i].getData();
-				cout << ".............................................";
-			}
-			break;
-		case 2:
-			for (int i = 0; i < n; i++)
-				s[i].ShowData();
-			break;
-		case 3:
-			s[0].findsgpa();
-			break;
-		case 4:
-			s[0].rollList();
-			break;
-
-		case 8:
-			exit(0);
-		case 5:
-			s[0].FindName();
-			break;
-		case 6:
-			s[0].NameList();
-			break;
-		case 7:
-			s[0].TopTen();
-			break;
-		}
-	}
-}
+//int main()
+//{
+//
+//	int m;
+//	int count = 1;
+//	while (1)
+//	{
+//
+//		cout << endl << "****************************************";
+//		cout << endl << "\t\t" << "MAIN MENU";
+//		cout << endl << "****************************************";
+//		cout << endl << "|\t" << "1. Enter data                |";
+//		cout << endl << "|\t" << "2. Show Data                 |";
+//		cout << endl << "|\t" << "3. Search Student by SGPA    |";
+//		cout << endl << "|\t" << "4. Show Roll List            |";
+//		cout << endl << "|\t" << "5. Search student by name    |";
+//		cout << endl << "|\t" << "6. Name List                 | ";
+//		cout << endl << "|\t" << "7. Topper List               | ";
+//		cout << endl << "|\t" << "8. Exit                      |";
+//		cout << endl << "****************************************";
+//		cout << endl << "Enter your choice ";
+//		cin >> m;
+//		cout << "............................................." << endl;
+//		switch (m)
+//		{
+//		case 1:
+//			cout << "Enter number of student ";
+//			cin >> n;
+//			cout << "............................................." << endl;
+//			for (int i = 0; i < n; i++)
+//			{
+//				cout << endl << "Enter data for students " << count++ << endl;
+//				s[i].getData();
+//				cout << ".............................................";
+//			}
+//			break;
+//		case 2:
+//			for (int i = 0; i < n; i++)
+//				s[i].ShowData();
+//			break;
+//		case 3:
+//			s[0].findsgpa();
+//			break;
+//		case 4:
+//			s[0].rollList();
+//			break;
+//
+//		case 8:
+//			exit(0);
+//		case 5:
+//			s[0].FindName();
+//			break;
+//		case 6:
+//			s[0].NameList();
+//			break;
+//		case 7:
+//			s[0].TopTen();
+//			break;
+//		}
+//	}
+//}
 //funcion defination of getData from class Student
 void Student::getData()
 {

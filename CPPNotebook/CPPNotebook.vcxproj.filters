@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\OOP_Course">
+      <UniqueIdentifier>{335bc8ee-fa1b-43ee-bb31-e7c89a4ad364}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SearchingAndSorting.cpp">
@@ -48,8 +51,26 @@
     <ClCompile Include="muzeeb%27s.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\OneDrive\Desktop\MIN_term_from_array.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="EvenOdd.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeNumbers.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="HCF-LCF.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleClaculator.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultParameter.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
