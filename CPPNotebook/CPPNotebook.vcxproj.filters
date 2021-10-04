@@ -72,5 +72,38 @@
     <ClCompile Include="Inheritance.cpp">
       <Filter>Source Files\OOP_Course</Filter>
     </ClCompile>
+    <ClCompile Include="SizeOfDataTypes.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfArrayUsingPointers.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="BiggestValueInArray.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculator.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="UninaryOperator.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ArryPointers.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerStructure.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMemoryAllocation.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="BankAccount.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlloadingIncrementanddecrementoperator.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -26,7 +26,7 @@ public:
 
 
 		cout << "List: ";
-		while (temp->next != NULL) {
+		while (temp->next != nullptr) {
 			cout << " --->" << temp->data;
 			temp = temp->next;
 		}
@@ -42,15 +42,16 @@ public:
 		cin >> n;
 
 		node* temp = new node;
+		head = temp;
+		
 
-		if (head == NULL) head = new node;
-		//head->next = temp;
-
-		while (i <= n) {
+		while (i < n) {
 			cin >> data;
 			temp->data = data;
 			temp->next = new node;
+			
 			temp = temp->next;
+
 			i++;
 		}
 
@@ -82,6 +83,10 @@ public:
 //int main() {
 //	linkedlist list;
 //	list.get_data();
+//	list.display();
+//
+//	list.append_last(123456789);
+//
 //	list.display();
 //
 //	return 0;

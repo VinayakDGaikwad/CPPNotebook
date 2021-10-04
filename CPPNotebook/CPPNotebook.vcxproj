@@ -140,7 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayPointers.cpp" />
+    <ClCompile Include="ArryPointers.cpp" />
+    <ClCompile Include="BankAccount.cpp" />
+    <ClCompile Include="BiggestValueInArray.cpp" />
+    <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="DefaultParameter.cpp" />
+    <ClCompile Include="DynamicMemoryAllocation.cpp" />
     <ClCompile Include="EvenOdd.cpp" />
     <ClCompile Include="HCF-LCF.cpp" />
     <ClCompile Include="HW2_CPP.cpp" />
@@ -152,11 +157,17 @@
     <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="muzeeb%27s.cpp" />
+    <ClCompile Include="OperatorOverloading.cpp" />
+    <ClCompile Include="OverlloadingIncrementanddecrementoperator.cpp" />
+    <ClCompile Include="PointerStructure.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="PrimeNumbers.cpp" />
     <ClCompile Include="SearchingAndSorting.cpp" />
     <ClCompile Include="HW1_UserNamePassword.cpp" />
     <ClCompile Include="SimpleClaculator.cpp" />
+    <ClCompile Include="SizeOfDataTypes.cpp" />
+    <ClCompile Include="SumOfArrayUsingPointers.cpp" />
+    <ClCompile Include="UninaryOperator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
