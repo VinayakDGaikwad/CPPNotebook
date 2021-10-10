@@ -105,5 +105,42 @@
     <ClCompile Include="OverlloadingIncrementanddecrementoperator.cpp">
       <Filter>Source Files\OOP_Course</Filter>
     </ClCompile>
+    <ClCompile Include="MatrixFunctionTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FStream.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorDestrtuctor.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ArraySortingUsingTemplate.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFunctions.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexNuberUsingFriends.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageofSubjects.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="StackDataStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="xyz.txt">
+      <Filter>Source Files\OOP_Course</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

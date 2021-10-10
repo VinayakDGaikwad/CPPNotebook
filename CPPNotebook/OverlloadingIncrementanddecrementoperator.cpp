@@ -25,19 +25,19 @@ public:
     }
 };
 
-int main()
-{
-    NUM num;
-    num.getNum(10);
-
-    ++num;
-    cout << "After increment - ";
-    num.dispNum();
-    cout << endl;
-
-    --num;
-    cout << "After decrement - ";
-    num.dispNum();
-    cout << endl;
-    return 0;
-}
+//int main()
+//{
+//    NUM num;
+//    num.getNum(10);
+//
+//    ++num;
+//    cout << "After increment - ";
+//    num.dispNum();
+//    cout << endl;
+//
+//    --num;
+//    cout << "After decrement - ";
+//    num.dispNum();
+//    cout << endl;
+//    return 0;
+//}

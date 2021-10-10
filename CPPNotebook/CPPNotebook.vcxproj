@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClCompile Include="ArrayPointers.cpp" />
     <ClCompile Include="ArryPointers.cpp" />
+    <ClCompile Include="AverageofSubjects.cpp" />
     <ClCompile Include="BankAccount.cpp" />
     <ClCompile Include="BiggestValueInArray.cpp" />
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="ComplexNuberUsingFriends.cpp" />
+    <ClCompile Include="ConstructorDestrtuctor.cpp" />
     <ClCompile Include="DefaultParameter.cpp" />
     <ClCompile Include="DynamicMemoryAllocation.cpp" />
     <ClCompile Include="EvenOdd.cpp" />
+    <ClCompile Include="FStream.cpp" />
     <ClCompile Include="HCF-LCF.cpp" />
     <ClCompile Include="HW2_CPP.cpp" />
     <ClCompile Include="HW3_Function_Overloading.cpp" />
@@ -156,6 +160,7 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="LinkedListSource.cpp" />
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MatrixFunctionTemplate.cpp" />
     <ClCompile Include="muzeeb%27s.cpp" />
     <ClCompile Include="OperatorOverloading.cpp" />
     <ClCompile Include="OverlloadingIncrementanddecrementoperator.cpp" />
@@ -166,8 +171,18 @@
     <ClCompile Include="HW1_UserNamePassword.cpp" />
     <ClCompile Include="SimpleClaculator.cpp" />
     <ClCompile Include="SizeOfDataTypes.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="StackDataStructure.cpp" />
     <ClCompile Include="SumOfArrayUsingPointers.cpp" />
+    <ClCompile Include="ArraySortingUsingTemplate.cpp" />
     <ClCompile Include="UninaryOperator.cpp" />
+    <ClCompile Include="VirtualFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="xyz.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
