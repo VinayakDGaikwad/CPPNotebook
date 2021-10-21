@@ -47,41 +47,41 @@ void totavg(student& st1)
 }
 
 
-int main()
-
-{
-
-  student st[5];
-  student fst;
-
-  int number, i;
-
-  cout << "No. of Students: ";
-
-  cin >> number;
-
-  for (i = 0; i < number; i++)
-
-  {
-
-    cout << "Student " << i + 1 << "\n";
-
-    st[i].initialize();
-
-  }
-
-  for (i = 0; i < number; i++)
-
-    totavg(st[i]);
-
-  cout << "\nNumber, Name, Marks, Total and Average of ";
-
-  cout << number << " students:\n";
-
-  cout << "-----------------------------------------------------\n";
-
-  for (i = 0; i < number; i++)
-
-    st[i].display();
-
-}
+//int main()
+//
+//{
+//
+//  student st[5];
+//  student fst;
+//
+//  int number, i;
+//
+//  cout << "No. of Students: ";
+//
+//  cin >> number;
+//
+//  for (i = 0; i < number; i++)
+//
+//  {
+//
+//    cout << "Student " << i + 1 << "\n";
+//
+//    st[i].initialize();
+//
+//  }
+//
+//  for (i = 0; i < number; i++)
+//
+//    totavg(st[i]);
+//
+//  cout << "\nNumber, Name, Marks, Total and Average of ";
+//
+//  cout << number << " students:\n";
+//
+//  cout << "-----------------------------------------------------\n";
+//
+//  for (i = 0; i < number; i++)
+//
+//    st[i].display();
+//
+//}
