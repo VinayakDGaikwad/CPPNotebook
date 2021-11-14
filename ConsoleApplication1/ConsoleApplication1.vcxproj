@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{538d2983-fba2-4eec-a6ca-a90104022504}</ProjectGuid>
-    <RootNamespace>CPPNotebook</RootNamespace>
+    <ProjectGuid>{c1b2dba5-1796-4cbd-a03d-56de9764bb2e}</ProjectGuid>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,50 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayPointers.cpp" />
-    <ClCompile Include="ArryPointers.cpp" />
-    <ClCompile Include="AverageofSubjects.cpp" />
-    <ClCompile Include="BankAccount.cpp" />
-    <ClCompile Include="BiggestValueInArray.cpp" />
-    <ClCompile Include="Calculator.cpp" />
-    <ClCompile Include="CircularQue.cpp" />
-    <ClCompile Include="ComplexNuberUsingFriends.cpp" />
-    <ClCompile Include="ConstructorDestrtuctor.cpp" />
-    <ClCompile Include="DefaultParameter.cpp" />
-    <ClCompile Include="DynamicMemoryAllocation.cpp" />
-    <ClCompile Include="EvenOdd.cpp" />
-    <ClCompile Include="FStream.cpp" />
-    <ClCompile Include="HCF-LCF.cpp" />
-    <ClCompile Include="HW2_CPP.cpp" />
-    <ClCompile Include="HW3_Function_Overloading.cpp" />
-    <ClCompile Include="HW3_Pointer.cpp" />
-    <ClCompile Include="Inheritance.cpp" />
-    <ClCompile Include="inlineFuntions.cpp" />
-    <ClCompile Include="InsertionSort.cpp" />
-    <ClCompile Include="LinkedListSource.cpp" />
-    <ClCompile Include="Matrix.cpp" />
-    <ClCompile Include="MatrixFunctionTemplate.cpp" />
-    <ClCompile Include="muzeeb%27s.cpp" />
-    <ClCompile Include="OperatorOverloading.cpp" />
-    <ClCompile Include="OverlloadingIncrementanddecrementoperator.cpp" />
-    <ClCompile Include="PointerStructure.cpp" />
-    <ClCompile Include="QuickSort.cpp" />
-    <ClCompile Include="PrimeNumbers.cpp" />
-    <ClCompile Include="HW1_UserNamePassword.cpp" />
-    <ClCompile Include="SimpleClaculator.cpp" />
-    <ClCompile Include="SizeOfDataTypes.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="StackLinkedList.cpp" />
-    <ClCompile Include="SumOfArrayUsingPointers.cpp" />
-    <ClCompile Include="ArraySortingUsingTemplate.cpp" />
-    <ClCompile Include="UninaryOperator.cpp" />
-    <ClCompile Include="VirtualFunctions.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="xyz.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
+    <ClCompile Include="..\CPPNotebook\SearchingAndSorting.cpp" />
+    <ClCompile Include="infixtopostfix.cpp" />
+    <ClCompile Include="postfixevaluation.cpp" />
+    <ClCompile Include="prefixevaluation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
