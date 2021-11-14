@@ -114,10 +114,10 @@ public:
       }
     }
 
-      int main() {
+      /*int main() {
         char infix[30], postfix[30];
         cout << "Enter an infix expression:";
         cin >> infix;
         infix_to_postfix(infix, postfix);
         cout << "Postfix:" << postfix;
-      };
+      };*/

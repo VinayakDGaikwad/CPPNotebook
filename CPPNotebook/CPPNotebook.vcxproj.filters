@@ -129,9 +129,6 @@
     <ClCompile Include="CircularQue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackLinkedList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="xyz.txt">

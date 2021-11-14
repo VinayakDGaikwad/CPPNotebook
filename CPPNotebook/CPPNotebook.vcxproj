@@ -172,7 +172,6 @@
     <ClCompile Include="SimpleClaculator.cpp" />
     <ClCompile Include="SizeOfDataTypes.cpp" />
     <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="StackLinkedList.cpp" />
     <ClCompile Include="SumOfArrayUsingPointers.cpp" />
     <ClCompile Include="ArraySortingUsingTemplate.cpp" />
     <ClCompile Include="UninaryOperator.cpp" />
