@@ -40,14 +40,17 @@ public:
     if (isEmpty()){
       return 0;
     }
-    else
-    {
-      int x = queue[front];
-      front = (front + 1) % MAX;
-      return x;
+    else if (front == rear) {
+      front = -1;
+      rear = -1;
+      return 0;
     }
+    else {
+      int re = queue[front];
+      front = (front + 1) % MAX;
+      return re;
 
-
+    }
   }
 
   bool isEmpty() {
@@ -84,11 +87,26 @@ public:
   int main()
   {
     clrqueue c;
-    c.Enqueue(1);
-    c.Enqueue(2);
-    c.Enqueue(3);
-    c.Dequeue();
-    c.display();
-
+    int input;
+    for (size_t i = 0; i < 100; i++)
+    {
+      cout << "Menu: \n \t 1. Insert (Inqueue) \n\t 2. Remove (Dequeue) \n\t 3. Display";
+      cin >> input;
+      int data;
+      switch (input)
+      {
+      case 1:
+        cin >> data;
+          c.Enqueue(data);
+        break;
+      case 2:
+        c.Dequeue();
+        break;
+      case 3:
+        c.display();
+        break;
+      }
+      }
+    
     return 0;
   }
