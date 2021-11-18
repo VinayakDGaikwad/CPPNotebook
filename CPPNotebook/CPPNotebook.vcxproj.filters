@@ -129,6 +129,15 @@
     <ClCompile Include="CircularQue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ConsoleApplication1\infixtopostfix.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleApplication1\postfixevaluation.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConsoleApplication1\prefixevaluation.cpp">
+      <Filter>Source Files\OOP_Course</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="xyz.txt">

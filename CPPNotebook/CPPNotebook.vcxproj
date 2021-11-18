@@ -139,6 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ConsoleApplication1\infixtopostfix.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\postfixevaluation.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\prefixevaluation.cpp" />
     <ClCompile Include="ArrayPointers.cpp" />
     <ClCompile Include="ArryPointers.cpp" />
     <ClCompile Include="AverageofSubjects.cpp" />

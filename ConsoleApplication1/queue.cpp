@@ -84,29 +84,29 @@ public:
   }
 };
 
-  int main()
-  {
-    clrqueue c;
-    int input;
-    for (size_t i = 0; i < 100; i++)
-    {
-      cout << "Menu: \n \t 1. Insert (Inqueue) \n\t 2. Remove (Dequeue) \n\t 3. Display";
-      cin >> input;
-      int data;
-      switch (input)
-      {
-      case 1:
-        cin >> data;
-          c.Enqueue(data);
-        break;
-      case 2:
-        c.Dequeue();
-        break;
-      case 3:
-        c.display();
-        break;
-      }
-      }
-    
-    return 0;
-  }
+  //int main()
+  //{
+  //  clrqueue c;
+  //  int input;
+  //  for (size_t i = 0; i < 100; i++)
+  //  {
+  //    cout << "Menu: \n \t 1. Insert (Inqueue) \n\t 2. Remove (Dequeue) \n\t 3. Display";
+  //    cin >> input;
+  //    int data;
+  //    switch (input)
+  //    {
+  //    case 1:
+  //      cin >> data;
+  //        c.Enqueue(data);
+  //      break;
+  //    case 2:
+  //      c.Dequeue();
+  //      break;
+  //    case 3:
+  //      c.display();
+  //      break;
+  //    }
+  //    }
+  //  
+  //  return 0;
+  //}

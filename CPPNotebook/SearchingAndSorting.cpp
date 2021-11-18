@@ -38,6 +38,7 @@ public:
         return;
       }
       i++;
+      if (i = 5) break;
     } while ((mydatabase[i].roll_no != local_key));
 
     cout << "Not Found";
@@ -85,7 +86,7 @@ public:
     while (l <= r) {
       int mid = l + (r - l) / 2;
 
-      // Check if x is present at mid
+       Check if x is present at mid
       if (strcmp(mydatabase[mid].name, key) == 0) {
         not_found = 0;
         cout << "Found! \n";
@@ -95,11 +96,11 @@ public:
         break;
       }
 
-      // If x greater, ignore left half
+       If x greater, ignore left half
       if (strcmp(mydatabase[mid].name, key) < 0)
         l = mid + 1;
 
-      // If x is smaller, ignore right half
+       If x is smaller, ignore right half
       else
         r = mid - 1;
     }
@@ -107,15 +108,15 @@ public:
   }
 
   void insertion_sort_alphabetically() {
-    int j, i;
+    int j = 0, i = 0;
     student key;
 
     for (i = 0; i < 5; i++) {
       key = mydatabase[i];
 
       j = i - 1;
-      while (strcmp(mydatabase[i].name, key.name) < 0) {
-        mydatabase[j + 1] = mydatabase[j];
+      while (j>=0 && (strcmp(mydatabase[j].name, key.name) > 0)) {
+        mydatabase[j +1] = mydatabase[j];
         j--;
       }
       mydatabase[j + 1] = key;
@@ -156,7 +157,7 @@ public:
 
       if (i < j)
       {
-        //swap
+        swap
         swap = a[i];
         a[i] = a[j];
         a[j] = swap;

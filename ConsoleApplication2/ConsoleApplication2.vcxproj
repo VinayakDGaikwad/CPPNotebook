@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ConsoleApplication1\dijkstra_algorithm.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\expression_tree.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\filehandling.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\file_handeling.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\heap_sort.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\heap_sprt.cpp" />
     <ClCompile Include="..\ConsoleApplication1\queue.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\sequentialfiles.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\Source.cpp" />
+    <ClCompile Include="..\ConsoleApplication1\task.cpp" />
+    <ClCompile Include="..\CPPNotebook\expression_eval_using_stack.cpp" />
+    <ClCompile Include="..\CPPNotebook\SearchingAndSorting.cpp" />
+    <ClCompile Include="bst.cpp" />
+    <ClCompile Include="kruskals_algorithm.cpp" />
+    <ClCompile Include="threaded_binary_tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

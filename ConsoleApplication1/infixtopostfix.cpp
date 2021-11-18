@@ -86,7 +86,7 @@ public:
     }
 
     void infix_to_prefix(char infix[], char prefix[]) {
-      int i, j;
+      int i, j = 0;
       char temp, inl[30];
 
       for (i = strlen(infix) - 1; j == 0; i >= 0, i--, j++) {
